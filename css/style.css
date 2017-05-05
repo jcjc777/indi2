@@ -31,9 +31,9 @@
      
     background-image: url(../images/lowermanhattan2.png);
     min-height:100vh;
-    /*background-position: center center;*/
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center center;
 }
 
 .navbar {
@@ -59,6 +59,36 @@
 }
 
 .navbar a:link {}
+
+
+/*.logo {
+    background-image: url(../images/logo1.png);
+}*/
+
+
+.navbar-main {
+    display: flex;
+    background: none;
+    color: #F8F8F8;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    justify-content:space-between;
+    font-family: Brawler;
+    
+    
+}
+
+.navbar-main a {
+    color:red;
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    
+}
+
+.navbar-main a:link {}
 
 
 /*#navbar { 
@@ -106,7 +136,7 @@ li a: hover {
     
     text-align: center;
     
-    margin-top: 120px;
+    margin-top: 100px;
     
     padding-top: 20px;
     
@@ -125,7 +155,7 @@ li a: hover {
     
     text-align: center;
     
-    margin-top: 80px;
+    margin-top: 60px;
     
     padding-top: 20px;
     
@@ -165,7 +195,7 @@ li a: hover {
     
     box-shadow: 5px 5px 10px black;
     
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.6s;
 }
 
 .btn-tour:hover {
@@ -175,9 +205,9 @@ li a: hover {
     color:black;
 }
 
-.btn-tour a {
+/*.btn-tour a {
     color:red;
-}
+}*/
     
     
 
@@ -208,13 +238,13 @@ li a: hover {
     /*border:2px solid black;*/
     width:58%;
     height:320px;
-    padding:50px 20px 20px 20px;
+    padding:22px 20px 20px 20px;
     font-family: Archivo;
     color:#EBEBEB;
-    margin-top:80px;
-    margin-left:20px;
-    margin-bottom:2px;
-    justify-content: center;
+    margin-top:60px;
+    margin-left:23px;
+    margin-bottom:70px;
+    justify-content:center;
 }
 
 .then-body {
@@ -238,8 +268,8 @@ li a: hover {
 }
 
 .section .t-image-1, .t-image-2, .t-image-3 {
-    height: 240px;
-    border: 3px solid  #072e6d;
+    height: 280px;
+    border: 3px solid #072e6d;
     margin-bottom: 20px;
 }
     
@@ -258,6 +288,7 @@ li a: hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border: 3px solid blue;
 }
     
 .t-image-2 {    
@@ -275,6 +306,7 @@ li a: hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border: 3px solid blue;
 }
         
 .t-image-3 {    
@@ -287,11 +319,12 @@ li a: hover {
 
 .t-image-3:hover {
     transition-duration:0.8s;
-    background-image: url(../images/oculus.jpg);
+    background-image: url(../images/oculusentrance.png);
     transform: scale(1.2);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border: 3px solid blue;
 }
 
 .t-caption {
@@ -324,18 +357,33 @@ h3 {
 }
 
 .now-text {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 45%;
     height: 350px;
+    padding:7px;
+    font-family: Archivo;
+    color:#EBEBEB;
+    margin-bottom:118px;
+    margin-left:145px;
+}
+
+.now-h1 {
+    text-align:center;
+    font-family: Archivo;
+    color:#F8F8F8;
+    font-weight:bolder;
+    /*border: 2px solid black;*/
+    width: 45%;
+    height: 100px;
     padding:10px;
     font-family: Archivo;
     color:#EBEBEB;
-    margin-bottom:30px;
+    margin-bottom:338px;
     margin-left:10px;
 }
 
 .now-body {
-    background-image: url(../images/freedomtowerskyline7.jpg);
+    background-image: url(../images/LMskyline1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     max-height:55vh;
@@ -345,7 +393,7 @@ h3 {
 
 .n-section {
     display:flex;
-    background: linear-gradient(to bottom, #0089ce, #0c3e8e, #86b3f9);
+    background: linear-gradient(to bottom, #3d81f7, #0089ce, #0c3e8e, #86b3f9);
     min-height:50vh;
 }
 
@@ -356,13 +404,13 @@ h3 {
 }
 
 .n-section .n-image-1, .n-image-2, .n-image-3 {
-    height: 240px;
-    border: 3px solid  #072e6d;
+    height: 280px;
+    border: 3px solid #072e6d;
     margin-bottom: 20px;
 }
     
 .n-image-1 {    
-    background-image: url(../images/oldwtcmall.png);
+    background-image: url(../images/wtcoculuspath.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
@@ -371,11 +419,12 @@ h3 {
 
 .n-image-1:hover {
     transition-duration:0.8s;
-    background-image: url(../images/westfield.jpg);
+    background-image: url(../images/oculus.jpg);
     transform: scale(1.2);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border: 3px solid #92b9fc;
 }
     
 .n-image-2 {    
@@ -393,10 +442,11 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border: 3px solid #b7cef7;
 }
         
 .n-image-3 {    
-    background-image: url(../images/oculus.jpg);
+    background-image: url(../images/onewtcentrance.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
@@ -405,11 +455,12 @@ h3 {
 
 .n-image-3:hover {
     transition-duration:0.8s;
-    background-image: url(../images/oculus.jpg);
+    background-image: url(../images/onewtcevening.png);
     transform: scale(1.2);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border: 3px solid #b7cef7;
 }
 
 .n-caption {
@@ -421,6 +472,10 @@ h3 {
 
 
 /*stylesheet for subterranean.html*/
+
+p {
+    text-indent: 50px;
+}
 
 .sub-top {
     width: 100%;
@@ -436,9 +491,9 @@ h3 {
 .s-top-text {
     width:98%;
     height: 200px;
-    padding-top:20px;
-    padding-left:30px;
-    padding-right:30px;
+    padding-top:42px;
+    padding-left:50px;
+    padding-right:50px;
     font-family: Archivo;
     border: 2px solid black;
     justify-content: center;
@@ -469,8 +524,9 @@ h2 {
     display:flex;
     flex-direction:column;
     border:2px solid black;
-    padding:20px;
-    color:#031279;
+    padding:40px;
+    color: black;
+    font-weight: bold;
 }
 
 .s-container .row {
@@ -488,7 +544,7 @@ h2 {
 }
 
 .s-image-1 {    
-    background-image: url(../images/fultonctroutside.jpg);
+    background-image: url(../images/nobudowntown.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
@@ -497,15 +553,16 @@ h2 {
 
 .s-image-1:hover {
     transition-duration:0.8s;
-    background-image: url(../images/fultonctr.jpg);
+    background-image: url(../images/memorialandtower.jpg);
     /*transform: scale(1.2);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border:2px solid #f28818;
 }
     
 .s-image-2 {    
-    background-image: url(../images/nobudowntown.jpg);
+    background-image: url(../images/fultonctroutside.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
@@ -514,11 +571,12 @@ h2 {
 
 .s-image-2:hover {
     transition-duration:0.8s;
-    background-image: url("../images/memorialandtower.jpg");
+    background-image: url("../images/fultonctr.jpg");
     /*transform: scale(1.2);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border:2px solid #f28818;
 }
         
 .s-image-3 {    
@@ -536,6 +594,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border:2px solid #f28818;
 }
 
 .s-image-4 {    
@@ -553,6 +612,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border:2px solid #f28818;
 }
     
 .s-image-5 {    
@@ -570,6 +630,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
+    border:2px solid #f28818;
 }
 
 .s-container .s-caption {
@@ -578,7 +639,7 @@ h2 {
     border:2px solid #072e6d;
     margin-top:10px;
     margin-bottom:10px;
-    margin-left:520px;
+    margin-left:540px;
     margin-right:10px;
     display: flex;
     flex-direction:column;
@@ -592,11 +653,12 @@ h2 {
     margin-top:10px;
     margin-bottom:10px;
     position:relative;
-    top:-10px;
+    top:-11px;
 }
 
 .s-h3 {
-    color:#031279;
+    color:#f28818;
+    /*-webkit-text-stroke: 0.01px black;*/
     text-align:center;
     font-family:Brawler;
     font-weight:bolder;
